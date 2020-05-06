@@ -16,11 +16,14 @@ type Message struct {
 	From      int64 // Member
 	To        int64 // Device
 	Date      time.Time
+	Read      int
 }
 
 type ChatRoom struct {
-	RoomId  int64
-	Members []*Member
+	RoomId       int64
+	Name         string
+	Members      []*Member
+	MessageCount int
 }
 
 type Device struct {
