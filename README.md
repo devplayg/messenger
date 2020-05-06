@@ -1,2 +1,1 @@
-# messenger-server
-Messenger server
+msg server
